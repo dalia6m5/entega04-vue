@@ -1,17 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+   
+    <SingUp/>
+    <LogIn/>
+    <ListaProd/>
+    <ProdDetalle/>
+    <CarritoProd/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+/* import HelloWorld from './components/HelloWorld.vue' */
+import SingUp from './components/SingUp.vue'
+import LogIn from './components/LogIn.vue'
+import ListaProd from './components/ListaProd.vue'
+import CarritoProd from './components/CarritoProd.vue'
+import ProdDetalle from './components/ProdDetalle.vue'
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+   
+    SingUp,
+    LogIn,
+    ListaProd,
+    CarritoProd,
+    ProdDetalle,
+
   }
 }
 </script>
