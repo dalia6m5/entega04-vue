@@ -1,13 +1,13 @@
 <template>
     <div>
-         <section class="vh-100 gradient-custom">
-            <div class="container py-5 h-100">
-                <div class="row d-flex justify-content-center align-items-center h-100 " >
+         <section class="gradient-custom">
+            <div class="container py-5">
+                <div class="row d-flex justify-content-center align-items-center" >
                     <div class="col-12 col-md-8 col-lg-6 col-xl-5 border border-secondary p-4 m-4" style="border-radius: 1rem;" >
                         <h5>Productos disponibles</h5>
-                        <div class="card bg-secondary text-white" style="border-radius: 1rem;">
+                        <div class="card bg-secondary text-white align-items-center " style="border-radius: 1rem;">
                         
-                        <TarjetaProducto :productoslista="productoslista"/>
+                        <TarjetaProducto :productoslista="productoslista" class="m-2 p-2"/>
                         
                         </div>
 

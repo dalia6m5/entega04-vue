@@ -1,7 +1,9 @@
 <template>
   <div>
-    <section class="vh-100 gradient-custom">
-    <div class="container py-5 h-100 row d-flex justify-content-center align-items-center">
+    <section class="container p-4">
+    
+
+     <div class="container d-flex justify-content-center align-items-center">
       <div class="card " style="width: 18rem;">
       
 
@@ -14,7 +16,7 @@
     </div>
   </div>
      
-    </div>
+</div> 
   </section>
   </div>
   </template>
