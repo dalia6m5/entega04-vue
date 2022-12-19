@@ -13,28 +13,28 @@
                              <p class="text-white-50 mb-5">Crea un usuario nuevo para que empieces a comprar</p>
 
                              <div class="form-outline form-white mb-4">
-                                 <input type="text" id="typeEmailX" class="form-control form-control-lg" />
-                                 <label class="form-label" for="typeEmailX">Nombre y Apellido</label>
+                                 <input type="text" id="nombreApellido" class="form-control form-control-lg" />
+                                 <label class="form-label" for="nombreApellido">Nombre y Apellido</label>
                             </div>
 
                              <div class="form-outline form-white mb-4">
-                                 <input type="text" id="typeEmailX" class="form-control form-control-lg" />
-                                 <label class="form-label" for="typeEmailX">Usuario</label>
+                                 <input type="text" id="usuarioSign" class="form-control form-control-lg" />
+                                 <label class="form-label" for="usuarioSign">Usuario</label>
                             </div>
 
                             <div class="form-outline form-white mb-4">
-                                 <input type="email" id="typeEmailX" class="form-control form-control-lg" />
-                                 <label class="form-label" for="typeEmailX">Email</label>
+                                 <input type="email" id="eMail" class="form-control form-control-lg" />
+                                 <label class="form-label" for="eMail">Email</label>
                             </div>
 
                             <div class="form-outline form-white mb-4">
-                             <input type="password" id="typePasswordX" class="form-control form-control-lg" />
-                             <label class="form-label" for="typePasswordX">Contraseña</label>
+                             <input type="password" id="contrasena" class="form-control form-control-lg" />
+                             <label class="form-label" for="contrasena">Contraseña</label>
                             </div>
 
                             <div class="form-outline form-white mb-4">
-                                 <input type="text" id="typeEmailX" class="form-control form-control-lg" />
-                                 <label class="form-label" for="typeEmailX">Dirección</label>
+                                 <input type="text" id="direccion" class="form-control form-control-lg" />
+                                 <label class="form-label" for="direccion">Dirección</label>
                             </div>
 
 

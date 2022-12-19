@@ -4,7 +4,7 @@
         <div class="row mb-4 d-flex justify-content-between align-items-center" v-for="(productocar, index) of productoscar" :key="index">
                             <div class="col-md-2 col-lg-2 col-xl-2">
                                  <img
-                                    :src="productoscar[index].img"
+                                    v-bind:src="productoscar[index].img"
                                     class="img-fluid rounded-3" :alt="productoscar[index].nombre">
                             </div>
                             <div class="col-md-3 col-lg-3 col-xl-3">

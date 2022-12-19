@@ -13,8 +13,8 @@
                              <p class="text-white-50 mb-5">Ingresa tu usuario y contraseña para empezar a comprar</p>
 
                              <div class="form-outline form-white mb-4">
-                                 <input type="text" id="typeEmailX" class="form-control form-control-lg" />
-                                 <label class="form-label" for="typeEmailX">Usuario</label>
+                                 <input type="text" id="usuarioLog" class="form-control form-control-lg" />
+                                 <label class="form-label" for="usuarioLog">Usuario</label>
                             </div>
 
                             <div class="form-outline form-white mb-4">

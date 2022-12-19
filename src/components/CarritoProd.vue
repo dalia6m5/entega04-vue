@@ -95,7 +95,7 @@ import ArticuloCarrito from './ArticuloCarrito.vue';
                 nombre:"Retinol 1%",
                 marca: "Paulas Choice",
                 precio: 30,
-                img: "../assets/Foto-01.jpg",
+                img: require("../assets/Foto-01.jpg"),
                 descripcion:"Paula's Choice El tratamiento clínico de retinol al 1% con péptidos y vitamina C está formulado para reducir la apariencia de arrugas, ya que refina los poros y reafirma la piel para una apariencia radiante, rejuvenecida y juvenil. Esta fórmula robusta también ayuda a prevenir signos de envejecimiento y suaviza el aspecto de las marcas postacné."
             },
             {
@@ -103,7 +103,7 @@ import ArticuloCarrito from './ArticuloCarrito.vue';
                 nombre:"Retinol 0.3%",
                 marca: "Inkey List",
                 precio: 10,
-                img: "../assets/Foto-02.jpg",
+                img: require("../assets/Foto-04.jpg"),
                 descripcion:"Retinol estabilizado RetiStar al 1 % y retinoide granactivo al 0,5 %: reduce la apariencia de las líneas finas y las arrugas; fórmula de liberación lenta para una entrega activa eficaz y poco irritante. Escualano: Hidrata y calma."
             },
             {
@@ -111,7 +111,7 @@ import ArticuloCarrito from './ArticuloCarrito.vue';
                 nombre:"Retinol 0.3%",
                 marca: "Cerave",
                 precio: 13,
-                img: "../assets/Foto-03.jpg",
+                img: require("../assets/Foto-02.jpg"),
                 descripcion:"Un sérum de tratamiento post-imperfecciones con retinol encapsulado, extracto de raíz de regaliz y niacinamida que ayuda a que la piel tenga un aspecto más brillante, suave y uniforme."
             },
             
